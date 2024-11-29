@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electricity Bill Calculator DApp</title>
+</head>
+<body>
+    <h2>Electricity Bill Calculator</h2>
+    <label>Previous Meter Reading: </label>
+    <input type="number" id="prevReading"><br><br>
+    <label>Current Meter Reading: </label>
+    <input type="number" id="currReading"><br><br>
+    <button onclick="generateBill()">Generate Bill</button>
+    <h3>Bill Details:</h3>
+    <div id="billDetails"></div>
+
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
